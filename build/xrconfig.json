@@ -1,0 +1,9 @@
+{
+    "prfeix": "xr",
+    "shipping": {
+        "templates": "lib/assets/templates",
+        "root": "src",
+        "indexTemplate": "layout.html"
+    },
+    "dev": "Foo"
+}

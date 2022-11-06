@@ -1,0 +1,30 @@
+{
+  "name": "x-render",
+  "version": "1.0.0",
+  "description": "HTML rendering library",
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node lib/",
+    "module": "ts-node lib/cli",
+    "Bar": "ts-node src/Bar/Bar"
+  },
+  "keywords": [
+    "html",
+    "components"
+  ],
+  "author": "Seacrest",
+  "license": "ISC",
+  "dependencies": {
+    "@types/inquirer": "^9.0.2",
+    "@types/write-json-file": "^3.2.1",
+    "commander": "^9.4.1",
+    "inquirer": "^9.1.4",
+    "node-fetch": "^3.2.10",
+    "typescript": "^4.8.4",
+    "write-json": "^3.0.1",
+    "write-json-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.8"
+  }
+}

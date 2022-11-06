@@ -1,0 +1,5 @@
+{
+  "prfeix":"xr",
+  "templates": "lib/assets/templates",
+  "modules":"src"
+}
