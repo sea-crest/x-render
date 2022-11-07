@@ -2,11 +2,11 @@
   "name": "x-render",
   "version": "1.0.0",
   "description": "HTML rendering library",
-  "main": "main.ts",
+  "main": "build/src/",
   "scripts": {
     "start": "ts-node lib/",
     "module": "ts-node lib/cli",
-    "Bar": "ts-node src/Bar/Bar"
+    "xr": "ts-node lib/cli"
   },
   "keywords": [
     "html",

@@ -10,5 +10,8 @@ import {Component} from "../../lib";
       values: {}
     });
 
-    component.shipping({delivery: "module", name: "kek"});
+    component.shipping();
+
+    console.log("Shipping");
+    
     

@@ -164,10 +164,10 @@ export class Component {
     return res;
   }
 
-  shipping(opts?: {delivery?: "module" | "templates", name?: string}) {
+  shipping(opts?: {target?: "module" | "templates", name?: string}) {
     const self = Component.module.component.self!;
     const file  = ((opts?.name && opts?.name +".xr.html") || Component.module.component.index + ".xr.html");
-    if (opts?.delivery === "module") {
+    if (opts?.target === "module") {
       Shipping.export(join(modules, Component.module.name, file), self.html);
       return;
     }

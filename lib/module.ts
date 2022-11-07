@@ -67,10 +67,12 @@ export class Module {
     
     const ${module} = Component.createTemplate("${module}", ${module}Module);
     
-    ${module}({
+    const component = ${module}({
       import: [],
       values: {}
-    })`);
+    });
+
+    component.shipping();`);
     
   }
 
