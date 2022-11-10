@@ -1,2 +1,6 @@
 node_modules,
-dist
+dist,
+build,
+lib/assets/templates//\b(?!\bdocument\b).*.html,
+src,
+templates

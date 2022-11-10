@@ -1,3 +1,4 @@
+import { Component } from "./component";
 
 
 export function evaluate(template: string, obj?: Object) {
@@ -10,4 +11,8 @@ export function evaluate(template: string, obj?: Object) {
   }
 
   return result;
+}
+
+export function applyComponents(...names: string[]): Component[] {
+  return names.map((name) => new Component(name));
 }

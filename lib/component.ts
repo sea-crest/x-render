@@ -41,7 +41,7 @@ export class Component {
     if (options?.index) {
       this.template = readFileSync(resolve(modules, Component.module.name, `${Component.module.component.index}.html`), "utf-8")
       this.resolve();
-      this.template = this.template.replace("</style>", this.styles + "</styles>");
+      this.template = this.template.replace("</style>", this.styles + "</style>");
 
     } else {
       this.configure();
